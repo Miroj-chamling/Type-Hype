@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root
+{
+    --source-code-pro: "Source Code Pro", monospace;
+    --kode-font: "Kode Mono", monospace;
+}
+
+body
+{
+    height: 100vh;
+    width: 70%;   
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgb(0, 0, 0), rgb(34, 34, 34));
+    align-items: center;
+}
+
+.header
+{ 
+    font-family: var(--kode-font);
+    color: whitesmoke;
+}   
+
+
+#emblem
+{
+    position: relative;
+    font-size: 3rem;
+}
+
+#keyboard
+{
+    position: absolute;
+    top: 0;
+}
+
+#desc
+{
+    font-size: 18px;
+    margin-top: 12px ;
+    color: grey;
+}
+
+.text-display
+{
+    min-height: 200px;
+    width: 70%;
+    background: grey;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.input-container
+{
+    background: rebeccapurple;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items:flex-start;
+    color: whitesmoke;
+}
+
+.time-display, .wpa-display
+{
+    display: flex;
+}
+
+
+
